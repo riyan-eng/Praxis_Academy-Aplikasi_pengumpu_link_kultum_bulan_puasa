@@ -1,0 +1,11 @@
+<h3>Register</h3>
+
+<form method="POST" action="">
+    {% csrf_token %}
+    <input type="text" name="username" placeholder="Username">
+    <input type="text" name="email" placeholder="E-mail">
+    <input type="text" name="first_name" placeholder="Nomor HP/WA">
+    <input type="text" name="password1" placeholder="Password">
+    <input type="text" name="password2" placeholder="Konfirmasi Password">
+    <button type="submit">Buat</button>
+</form>
